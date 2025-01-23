@@ -1,21 +1,22 @@
-/* Make the background off-white */
+/* Full-screen background and centering */
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex; /* Use Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     height: 100vh; /* Full viewport height */
-    margin: 0;
+    margin: 0; /* Remove default margins */
     background-color: #ffe6fe; /* Off-white background */
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* Clean font */
 }
 
-/* Style the name */
+/* Style for the text */
 h1 {
     color: #FFC0CB; /* Baby pink color */
-    font-weight: bold;
-    font-size: 5vw; /* Responsive font size based on viewport width */
-    text-align: center;
-    margin: 0;
-    line-height: 1.2;
+    font-weight: bold; /* Bold text */
+    font-size: 5vw; /* Responsive font size */
+    margin: 0; /* No extra margins */
+    text-align: center; /* Center align text */
+    line-height: 1.2; /* Slightly adjust line height */
 }
+
 
