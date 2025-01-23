@@ -1,15 +1,21 @@
+/* Make the background off-white */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh; /* Full viewport height */
     margin: 0;
-    background-color: #f9f9f9; 
+    background-color: #ffe6fe; /* Off-white background */
     font-family: Arial, sans-serif;
 }
 
+/* Style the name */
 h1 {
-    color: #FFC0CB;
+    color: #FFC0CB; /* Baby pink color */
     font-weight: bold;
-    font-size: 3em; 
+    font-size: 5vw; /* Responsive font size based on viewport width */
+    text-align: center;
+    margin: 0;
+    line-height: 1.2;
 }
+
