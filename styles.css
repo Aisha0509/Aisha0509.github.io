@@ -1,20 +1,22 @@
-/* Ensure the entire viewport is used */
+/* Full-screen background and centering */
 body {
-    display: flex; /* Use Flexbox */
+    display: flex; /* Use Flexbox for centering */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     height: 100vh; /* Full viewport height */
-    margin: 0; /* No default margins */
-    background-color: #e71d1d; /* Off-white background */
-    font-family: Arial, sans-serif;
-    text-align: center; /* Center-align text */
+    margin: 0; /* Remove default margins */
+    background-color: #ffe6fe; /* Off-white background */
+    font-family: Arial, sans-serif; /* Clean font */
 }
 
-/* Style the text */
+/* Style for the text */
 h1 {
     color: #FFC0CB; /* Baby pink color */
-    font-weight: bold; /* Bold font */
+    font-weight: bold; /* Bold text */
     font-size: 5vw; /* Responsive font size */
-    margin: 0; /* No margin around the text */
-    text-align: center; /* Ensures the text is centered horizontally */
+    margin: 0; /* No extra margins */
+    text-align: center; /* Center align text */
+    line-height: 1.2; /* Slightly adjust line height */
 }
+
+
