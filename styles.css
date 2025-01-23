@@ -18,8 +18,8 @@ header {
 }
 
 .top-photo {
-    width: 20%; /* Set the photo size to 20% of the screen width */
-    max-width: 150px; /* Restrict maximum size on large screens */
+    width: 30%; /* Set the photo size to 20% of the screen width */
+    max-width: 250px; /* Restrict maximum size on large screens */
     height: auto; /* Maintain aspect ratio */
     border-radius: 50%; /* Make it a circle */
     border: 3px solid #FFC0CB; /* Add a baby pink border */
