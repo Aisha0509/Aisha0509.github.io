@@ -6,23 +6,24 @@ body {
     text-align: center; /* Center-align text */
     display: flex;
     flex-direction: column; /* Stack header and main vertically */
-    align-items: center; /* Center everything horizontally */
+    align-items: center; /* Center horizontally */
     height: 100vh; /* Full viewport height */
 }
 
-/* Style the top photo */
+/* Style the header with the image */
 header {
-    width: 100%; /* Make the header span the full width */
-    text-align: center; /* Center the photo inside the header */
+    width: 100%; /* Make header span full width */
+    text-align: center;
     margin-top: 20px; /* Add spacing at the top */
 }
 
 .top-photo {
-    width: 120px; /* Adjust width for the photo */
-    height: 120px; /* Same height for a perfect circle */
+    width: 20%; /* Set the photo size to 20% of the screen width */
+    max-width: 150px; /* Restrict maximum size on large screens */
+    height: auto; /* Maintain aspect ratio */
     border-radius: 50%; /* Make it a circle */
     border: 3px solid #FFC0CB; /* Add a baby pink border */
-    object-fit: cover; /* Keep the image nicely cropped */
+    object-fit: cover; /* Crop the image to fit the circle */
 }
 
 /* Style the name text */
@@ -31,4 +32,15 @@ main h1 {
     font-weight: bold; /* Bold text */
     font-size: 5vw; /* Responsive font size */
     margin: 20px 0 0; /* Space above and below the name */
+}
+
+/* Additional responsiveness for very small screens */
+@media (max-width: 600px) {
+    .top-photo {
+        width: 30%; /* Increase the size for mobile screens */
+    }
+
+    main h1 {
+        font-size: 7vw; /* Make the text slightly larger on smaller screens */
+    }
 }
